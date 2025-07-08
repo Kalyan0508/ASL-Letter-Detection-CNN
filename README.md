@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🤟 ASL Letter Detection using YOLOv5 + Streamlit
 
 <div align="center">
@@ -111,3 +112,7 @@ Feel free to use or extend it — just give proper attribution 💙
 
 
 
+=======
+# ASL-Letter-Detection-CNN
+A CNN-based deep learning model to detect American Sign Language (ASL) letters from hand gesture images.
+>>>>>>> 3a51e7dfad6f02d5716452b5d8ed96ff56f4aa2a
