@@ -87,10 +87,6 @@ Upload an ASL hand gesture image to get predictions in real time!
 
 ---
 
-## 🌐 Try It Live (Optional)
-
-👉 [Launch on Streamlit Cloud](https://streamlit.io/cloud) *(deployment:https://asl-letter-detection-cnn-kalyanram.streamlit.app/)*  
-You can easily deploy this app by connecting this GitHub repo to [Streamlit Cloud](https://streamlit.io/cloud)
 
 ---
 
