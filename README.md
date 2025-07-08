@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🤟 ASL Letter Detection using YOLOv5 + Streamlit
 
 <div align="center">
@@ -41,13 +40,14 @@ This project detects static **American Sign Language (ASL)** letters (A–Z exce
 
 ## 📁 Project Structure
 
+
 ASL-Letter-Detection-CNN/
-├── yolov5/ # YOLOv5 repo (cloned)
+├── streamlit_app.py
+├── requirements.txt
+├── packages.txt       ✅ NEW
+├── yolov5/
 ├── weights/
-│ └── best.pt # Custom-trained YOLOv5 model
-├── streamlit_app.py # Streamlit web app
-├── sample_images/ # Example input images
-├── requirements.txt # All dependencies
+├── sample_images/
 └── README.md
 
 
@@ -55,9 +55,11 @@ ASL-Letter-Detection-CNN/
 
 ## 🛠️ Installation & Usage
 
-### 🔧 1. Clone this Repository
-
 ```bash
+
+## 🔧 1. Clone this Repository
+
+
 git clone https://github.com/Kalyan0508/ASL-Letter-Detection-CNN.git
 cd ASL-Letter-Detection-CNN
 
@@ -87,7 +89,7 @@ Upload an ASL hand gesture image to get predictions in real time!
 
 ## 🌐 Try It Live (Optional)
 
-👉 [Launch on Streamlit Cloud](https://streamlit.io/cloud) *(deployment link coming soon)*  
+👉 [Launch on Streamlit Cloud](https://streamlit.io/cloud) *(deployment:https://asl-letter-detection-cnn-kalyanram.streamlit.app/)*  
 You can easily deploy this app by connecting this GitHub repo to [Streamlit Cloud](https://streamlit.io/cloud)
 
 ---
@@ -115,4 +117,3 @@ Feel free to use or extend it — just give proper attribution 💙
 =======
 # ASL-Letter-Detection-CNN
 A CNN-based deep learning model to detect American Sign Language (ASL) letters from hand gesture images.
->>>>>>> 3a51e7dfad6f02d5716452b5d8ed96ff56f4aa2a
