@@ -1,0 +1,7 @@
+streamlit==1.28.2
+torch>=2.0.0
+opencv-python
+pillow<11.0.0
+numpy
+matplotlib
+pyyaml
