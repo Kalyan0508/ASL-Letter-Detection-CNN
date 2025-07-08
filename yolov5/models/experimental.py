@@ -5,6 +5,9 @@ import math
 
 import numpy as np
 import torch
+
+torch_load = torch.load
+
 import torch.nn as nn
 # from ultralytics.utils.patches import torch_load
 

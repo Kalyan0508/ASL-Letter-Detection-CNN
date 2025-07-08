@@ -43,8 +43,8 @@ import yaml
 #     os.system("pip install -U ultralytics")
 #     import ultralytics
 
-# from ultralytics.utils.checks import check_requirements
-# from ultralytics.utils.patches import torch_load
+from ultralytics.utils.checks import check_requirements
+from ultralytics.utils.patches import torch_load
 
 from utils import TryExcept, emojis
 from utils.downloads import curl_download, gsutil_getsize
