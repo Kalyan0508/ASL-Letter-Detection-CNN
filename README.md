@@ -41,14 +41,16 @@ This project detects static **American Sign Language (ASL)** letters (A–Z exce
 ## 📁 Project Structure
 
 
-ASL-Letter-Detection-CNN/
-├── streamlit_app.py
-├── requirements.txt
-├── packages.txt       ✅ NEW
-├── yolov5/
-├── weights/
-├── sample_images/
-└── README.md
+-ASL-Letter-Detection-CNN/
+-├── streamlit_app.py
+-├── requirements.txt
+-├── images(results)
+-├── packages.txt      
+-├── yolov5/
+-├── weights/
+-├── sample_images/
+-├── .ipynb file
+-└── README.md
 
 
 ---
@@ -86,6 +88,26 @@ Upload an ASL hand gesture image to get predictions in real time!
 > *(Replace with your actual image paths once added)*
 
 ---
+## 🚀 Live Demo
+
+👉 Try the project live on Hugging Face Spaces:
+    ASL_Letter_Detection/
+    ├── app.py                        # 🚀 Streamlit main app file
+    ├── requirements.txt             # 📦 Python dependencies
+    ├── yolov5/                      # 🧠 YOLOv5 core code (cloned or copied)
+    │   ├── models/
+    │   ├── utils/
+    │   ├── ...                      # YOLOv5 scripts and modules
+    ├── weights/
+    │   └── best.pt                  # 🎯 Trained YOLOv5 model
+    ├── README.md                    # 📄 Project documentation
+
+   
+🔗 ASL Letter Detection – Live Demo
+
+   Link: https://huggingface.co/spaces/Kalyan0508/ASL_Letter_Detection
+
+This interactive web app allows users to upload hand gesture images and detect the corresponding ASL (American Sign Language) letter using a custom-trained YOLOv5 model — all in real time.
 
 
 ---
