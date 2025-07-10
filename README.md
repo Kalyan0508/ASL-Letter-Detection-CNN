@@ -40,16 +40,16 @@ This project detects static **American Sign Language (ASL)** letters (A–Z exce
 
 ## 📁 Project Structure
 
-   ASL-Letter-Detection-CNN/
-   ├── streamlit_app.py          # 🚀 Main Streamlit application
-   ├── requirements.txt          # 📦 Python dependencies
-   ├── packages.txt              # 🛠️ System-level dependencies for HF Spaces
-   ├── yolov5/                   # 🧠 YOLOv5 model code (cloned/copied)
-   ├── weights/                  # 🎯 Contains best.pt (trained model)
-   ├── images/                   # 🖼️ Detection results (optional)
-   ├── sample_images/            # 📂 Sample test images
-   ├── notebook.ipynb            # 📓 Jupyter notebook for training/testing
-   └── README.md                 # 📘 Project documentation
+- ASL-Letter-Detection-CNN/
+- ├── streamlit_app.py          # 🚀 Main Streamlit application
+- ├── requirements.txt          # 📦 Python dependencies
+- ├── packages.txt              # 🛠️ System-level dependencies for HF Spaces
+- ├── yolov5/                   # 🧠 YOLOv5 model code (cloned/copied)
+- ├── weights/                  # 🎯 Contains best.pt (trained model)
+- ├── images/                   # 🖼️ Detection results (optional)
+- ├── sample_images/            # 📂 Sample test images
+- ├── notebook.ipynb            # 📓 Jupyter notebook for training/testing
+- └── README.md                 # 📘 Project documentation
 
 
 
